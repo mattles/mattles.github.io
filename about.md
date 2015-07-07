@@ -1,30 +1,33 @@
 ---
 layout: page
 title: About
+permalink: /about/
 ---
 
-<p class="message">
-  Hey there! This page is included as an example. Feel free to customize it for your own use upon downloading. Carry on!
-</p>
+```ruby
+me = Person.find(
+  first_name: "Matt",
+  last_name:"Hunter"
+)
 
-In the novel, *The Strange Case of Dr. Jeykll and Mr. Hyde*, Mr. Poole is Dr. Jekyll's virtuous and loyal butler. Similarly, Poole is an upstanding and effective butler that helps you build Jekyll themes. It's made by [@mdo](https://twitter.com/mdo).
+me.job = new Job(
+  position: "Head of Web Technology",
+  company: "Posboss"
+)
+puts me.who_i_am
 
-There are currently two themes built on Poole:
+```
+>Matt Hunter, Head of Web Technology at Posboss
 
-* [Hyde](http://hyde.getpoole.com)
-* [Lanyon](http://lanyon.getpoole.com)
+Ki Ora
 
-Learn more and contribute on [GitHub](https://github.com/poole).
+I'm Matt Hunter, Head of Web Technology for [Posbosshq](http://posbosshq.com), working towards a world where we can all get our morning cup of coffee that little bit faster.
 
-## Setup
 
-Some fun facts about the setup of this project include:
+###  Other Stuff
+I have been programming in Ruby and Rails since 2010, and since 2014 working at Posboss.
+ 
+My current roles see’s me using Ruby, Rails on the backend  and Angular JS for the front-end.
 
-* Built for [Jekyll](http://jekyllrb.com)
-* Developed on GitHub and hosted for free on [GitHub Pages](https://pages.github.com)
-* Coded with [Sublime Text 2](http://sublimetext.com), an amazing code editor
-* Designed and developed while listening to music like [Blood Bros Trilogy](https://soundcloud.com/maddecent/sets/blood-bros-series)
 
-Have questions or suggestions? Feel free to [open an issue on GitHub](https://github.com/poole/issues/new) or [ask me on Twitter](https://twitter.com/mdo).
 
-Thanks for reading!

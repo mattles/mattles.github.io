@@ -5,18 +5,21 @@ permalink:           pretty
 relative_permalinks: true
 
 # Setup
-title:               Lanyon
-tagline:             'A Jekyll theme'
-description:         'A reserved <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that places the utmost gravity on content with a hidden drawer. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
-url:                 http://lanyon.getpoole.com
-baseurl:             ''
+title:               Pursuit of Clean
+tagline:             'The noble and occassionally futile pursuit of clean code'
+description:         'In charge of all things web at <a href="http://twitter.com/posbosshq">@posboss</a>. I think ruby is one of the best languages out there and Rails makes my job a breeze. Follow me <a href="http://twitter.com/MattlesHunter" >@MattlesHunter</a>, I might even tweet things'
+url:                 http://pursuitofclean.com
 paginate:            5
 
 # About/contact
 author:
-  name:              Mark Otto
-  url:               https://twitter.com/mdo
-  email:             markdotto@gmail.com
+  name:              Matt Hunter
+  url:               https://twitter.com/mattlesHunter
+  twitter:           MattlesHunter
+  github:            mattles
 
 # Custom vars
 version:             1.0.0
+markdown: redcarpet
+highlighter: pygments
+permalink: /:title/
