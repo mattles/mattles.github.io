@@ -157,6 +157,7 @@ Which is much more succinct.
 
 Thanks comments and improvements welcome.
 
+[Follow me maybe ](http://twitter.com/MattlesHunter)
 Thank you and goodnight.
 
 
