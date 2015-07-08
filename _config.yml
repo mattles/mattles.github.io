@@ -9,6 +9,7 @@ title:               Pursuit of Clean
 tagline:             'The noble and occassionally futile pursuit of clean code'
 description:         'In charge of all things web at <a href="http://twitter.com/posbosshq">@posboss</a>. I think ruby is one of the best languages out there and Rails makes my job a breeze. Follow me <a href="http://twitter.com/MattlesHunter" >@MattlesHunter</a>, I might even tweet things'
 url:                 http://pursuitofclean.com
+baseurl:             http://pursuitofclean.com
 paginate:            5
 
 # About/contact
