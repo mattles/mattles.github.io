@@ -8,7 +8,7 @@ The best resource I have found on the subject is from the awesome guys at Though
 
 The solution they provide is excellent and provides you with a foundation on which to test your JSON response. The TLDR of which is, by using the [JSON-Schema](https://github.com/ruby-json-schema/json-schema) gem, you can validate your response against a Json schema.
 
-However I am Ruby programmer first and foremost. So I would rather not spend all day writing JSON schema files like the following
+However I am a Ruby programmer first and foremost. So I would rather not spend all day writing JSON schema files like the following
 
 ```javascript
 {
@@ -33,7 +33,7 @@ However I am Ruby programmer first and foremost. So I would rather not spend all
 }
 ```
 
-Which frankly when your spend most of your time writing and reading ruby, this is hard to mentally parse, verbose , and is annoying to write.
+Which frankly when your spend most of your time writing and reading ruby, this is hard to mentally parse, verbose, and is annoying to write.
 
 However there is a nicer way. The JSON Schema gem can take ruby hashes as well as JSON schema strings. Which means we can rewrite it in Ruby (Boo Yah).
 
